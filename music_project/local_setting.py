@@ -11,5 +11,9 @@ DATABASES = {
         'HOST': 'localhost',
         'USER': 'root',
         'PASSWORD': '555429ea',
+        'PORT': '3306',
+        'OPTIONS': {
+            'autocommit': True
+        }
     }
 }
